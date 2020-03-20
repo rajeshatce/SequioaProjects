@@ -22,7 +22,7 @@ namespace MyGitWebApi.Controllers
         {
             _logger = logger;
         }
-
+// Testing GitHub push Changes
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
